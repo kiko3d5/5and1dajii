@@ -5,8 +5,8 @@ WSPATH=${WSPATH:-'argo'}
 UUID=${UUID:-'5dec8cce-7296-44c2-b37a-096fb4ea82d6'}
 
 # 其他Paas保活
-PAAS1_URL=
-PAAS2_URL=
+PAAS1_URL=https://stealth-weak-kookaburra.glitch.me/
+PAAS2_URL=https://supreme-bevel-linseed.glitch.me/
 PAAS3_URL=
 PAAS4_URL=
 PAAS5_URL=
