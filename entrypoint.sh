@@ -2,11 +2,11 @@
 
 # 设置各变量
 WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'5dec8cce-7296-44c2-b37a-096fb4ea82d6'}
+UUID=${UUID:-'1e2a3ce2-4335-466f-a9b8-6fe28de0a1b7'}
 
 # 其他Paas保活
-PAAS1_URL=https://stealth-weak-kookaburra.glitch.me/
-PAAS2_URL=https://supreme-bevel-linseed.glitch.me/
+PAAS1_URL=
+PAAS2_URL=
 PAAS3_URL=
 PAAS4_URL=
 PAAS5_URL=
@@ -17,8 +17,8 @@ KOYEB_ACCOUNT=
 KOYEB_PASSWORD=
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH='{"AccountTag":"295edd975ac99aebfada127cc2c3127f","TunnelSecret":"D29Qic54sloBebCraHDSAxkMNrT7LdCJ8x10HrR12ns=","TunnelID":"33d976a5-cc48-41b2-bce0-cf3e9e3104c4"}'
-ARGO_DOMAIN=basck2d4.meetdits.eu.org
+ARGO_AUTH='{"AccountTag":"7c555867d1a3cf39054f4a99bbd0091e","TunnelSecret":"k/JcU7zhK9ejESePMmYkEYGeQRBIH2lGftrJYTPSlAs=","TunnelID":"4ec98fa7-1dc1-4dae-9a99-0a2d70aa4327"}'
+ARGO_DOMAIN=dgzdh2.dadatf3v.eu.org
 
 generate_config() {
   cat > config.json << EOF
